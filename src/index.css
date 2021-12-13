@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body{
+  margin:0px;
+  padding: 0px;
+  background-color: #ffffff;
+  font-family:'Bebas Neue', 'Lato', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  outline: none;
+  border: none;
+}
+input{
+  outline: none;
+  border: none;
+}
+h1,h2,h3{
+  font-size: 3rem;
+  color:#FFFFFF;
+  font-weight: 500;
+  font-family: 'Alfa Slab One';
+  text-transform: uppercase;
+}
+h4,h5,h6{
+  font-size: 2rem;
+  color:#FFFFFF;
+  font-weight: 500;
+  font-family: 'Bebas Neue';
+  text-transform: uppercase;
+}
+p{
+  color: #FFFFFF;
+  font-family: "Times New Roman";
+  font-size: 2rem;
+  padding: 1rem;
+
+
+}
