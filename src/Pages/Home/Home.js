@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
-import profile from "../../images/IMG_2087-01.jpeg";
-
+import profile from "../../images/profile-picture.svg";
+import Typical from 'react-typical'
 class Home extends Component {
   render() {
     return (
@@ -9,6 +9,21 @@ class Home extends Component {
         <div className="home-text">
           <p>Hello!</p>
           <h1>I'M MD ABDUL KADER</h1>
+            <div>
+                <h1>
+                    <Typical
+                    loop={Infinity}
+                    steps={[
+                        "React JS/React Native",
+                        1000,
+                        "Font End Developer",
+                        1000,
+                        "NodeJS/MySQL",
+                        1000
+                    ]}
+                    />
+                </h1>
+            </div>
           <h3>I studied at Bangladesh University of Business and Technology (BUBT)</h3>
           <h4>Department of Computer Science & Engineering</h4>
           <button>CONTACT ME</button>
