@@ -8,8 +8,7 @@ class Home extends Component {
       <div id='home'>
         <div className="home-text">
           <p>Hello!</p>
-          <h1>I'M MD ABDUL KADER</h1>
-            <div>
+          <h1>I'M <span>MD </span>ABDUL <font color="#17d1ac">KADER</font></h1>
                 <h1>
                     <Typical
                     loop={Infinity}
@@ -23,10 +22,17 @@ class Home extends Component {
                     ]}
                     />
                 </h1>
+                <p>An extremely positive and individual & can stay focused and motivated. Responsible, dependable and takes great pride in all my work. Can work both independently and in a team, which has been proven from past work experience and academic experiences.</p>
+            <div className="header-button">
+                <div className="header-button-left">
+                    <a href="#" target='_blank'>Contact Me</a>
+                </div>
+                <div className="header-button-right">
+                    <a href="#">Get Resume</a>
+
+                </div>
             </div>
-          <h3>I studied at Bangladesh University of Business and Technology (BUBT)</h3>
-          <h4>Department of Computer Science & Engineering</h4>
-          <button>CONTACT ME</button>
+
 
         </div>
         <div className="home-image">

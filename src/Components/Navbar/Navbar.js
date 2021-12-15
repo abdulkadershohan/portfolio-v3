@@ -17,7 +17,7 @@ function Navbar() {
     }
     return(
         <nav className={nav ? "active":"nav"}>
-            <Link to ='main' className='logo' smooth={true} duration={1000}>
+            <Link to ='home' className='logo' smooth={true} duration={1000}>
                 <img src={logo} alt=''/>
             </Link>
             <input type="checkbox" className="menu-btn" id='menu-btn'/>
@@ -25,7 +25,7 @@ function Navbar() {
                 <span className="nav-icon"></span>
             </label>
             <ul className="menu">
-                <li><Link to="main" smooth={true} duration={1000}>Home</Link></li>
+                <li><Link to="home" smooth={true} duration={1000}>Home</Link></li>
                 <li><Link to="about" smooth={true} duration={1000}>ABOUT</Link></li>
                 <li><Link to="skills" smooth={true} duration={1000}>Skills</Link></li>
                 <li><Link to="portfolio" smooth={true} duration={1000}>Portfolio</Link></li>
