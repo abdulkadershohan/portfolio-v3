@@ -6,7 +6,7 @@ body{
   margin:0px;
   padding: 0px;
   background-color: #ffffff;
-  font-family:'Bebas Neue', 'Lato', sans-serif;
+  font-family:'Cairo', sans-serif;
 
 }
 html{
@@ -36,18 +36,13 @@ h1,h2,h3{
   color:#FFFFFF;
   font-weight: 500;
   font-family: 'Alfa Slab One';
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 h4,h5,h6{
-  font-size: 2rem;
-  color:#FFFFFF;
-  font-weight: 500;
-  font-family: 'Bebas Neue';
-  text-transform: uppercase;
+
 }
 p{
   color: #FFFFFF;
-  font-family: "Times New Roman";
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 1rem;
 }
